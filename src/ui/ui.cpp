@@ -23,7 +23,7 @@ void MyUI::init(){
     lv_label_set_text(this->console, this->console_content.c_str());
 
     this->image = lv_img_create(lv_scr_act());
-    lv_obj_set_pos(this->image, 200, 10);
+    lv_obj_set_pos(this->image, 400, 10);
     lv_obj_set_size(this->image, 300, 300);
 
     LV_IMG_DECLARE(plant);
